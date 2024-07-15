@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {HashRouter as Router , Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Play1 from './pages/Play1';
 import Rive from './pages/Rive';
@@ -6,9 +6,8 @@ import Layout from './components/Layout';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Layout>
-        <h2>This is a test heading in App component</h2>
         <Routes>
           <Route index element={<Home />} />
           <Route path="/Home" element={<Home />} />
@@ -16,7 +15,7 @@ function App() {
           <Route path="/Mini-Projects/Rive" element={<Rive />} />
         </Routes>
       </Layout>
-    </BrowserRouter>
+    </Router>
   );
 }
 
