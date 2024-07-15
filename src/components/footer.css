@@ -1,0 +1,27 @@
+/* Footer styles */
+.text-footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid #e0e0e0;
+  margin-top: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.text-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  width: 700px;
+  height: 40px;
+}
+
+.text-footer p {
+  font-size: medium;
+  color: #a0a0a0;
+}

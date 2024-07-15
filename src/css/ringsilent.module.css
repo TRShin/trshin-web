@@ -1,0 +1,21 @@
+.holding {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    border-radius: 18px;
+    border: 1px solid var(--greyscale-color-lighter); 
+    background-color: var(--interactive-bg)
+}
+
+.buttonContainer {
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+}
+
+.all {
+    width: 100%;
+}

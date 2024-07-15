@@ -1,0 +1,19 @@
+.return {
+    position: absolute;
+    left: -30%; 
+    top: 30px; 
+}
+
+.return a {
+    font-size: medium;
+    font-weight: lighter;
+    text-decoration: none;
+    color: hsl(0, 0%, 70%);
+}
+
+@media (max-width: 1170px) {
+    .return {
+        position: static;
+        margin-bottom: 20px;
+    }
+}

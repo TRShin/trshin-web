@@ -1,0 +1,81 @@
+.container {
+  position: relative;
+}
+
+/* Typography */
+.short_info p {
+  margin: 0;
+}
+
+/* Work section */
+.work {
+  width: 100%;
+  min-height: 210px;
+  margin-top: 100px;
+}
+
+.work_body {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-wrap: nowrap;
+  border-radius: 10px;
+  height: 60px;
+  width: calc(100% + 12px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: -12px;
+  border-bottom: 1px solid var(--greyscale-color-lighter);
+}
+
+.work_body:hover {
+  background-color: var(--greyscale-color-select);
+}
+
+.work_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 12px;
+}
+
+.work_text p {
+  font-weight: 300;
+  margin: 0;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--greyscale-color-lighter);
+  border-radius: 5px;
+  width: 60%;
+  margin: 0 20px;
+  height: 2px;
+}
+
+.work_date {
+  color: var(--greyscale-color-light);
+  font-weight: 100;
+}
+
+/* Tag styles */
+.tag {
+  display: flex;
+  width: 35px;
+  height: 15px;
+  padding: 8px;
+  margin-left: 20px;
+  background-color: var(--greyscale-color-select);
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyscale-color-default);
+}
+
+.tag p {
+  font-size: small;
+  font-weight: 500;
+}

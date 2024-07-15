@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Newsreader:ital,wght@0,400;0,700;1,400;1,700&family=Sohne:wght@400;700&display=swap');
+
+:root {
+  /* Colors */
+  --greyscale-color-default: hsl(0, 0%, 32%);
+  --greyscale-color-semi-light: hsl(0, 0%, 55%);
+  --greyscale-color-light: hsl(0, 0%, 70%);
+  --greyscale-color-lighter: hsl(0, 0%, 85%);
+  --greyscale-color-dark: hsl(0, 0%, 0%);
+  --greyscale-color-select: hsl(0, 0%, 95%);
+  --interactive-bg: hsl(0, 0%, 99.5%);
+  --color-text: #505050;
+
+  /* Typography */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  --font-fallback: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --font-display: "Inter", var(--font-fallback);
+  --font-ui: "Inter", var(--font-fallback);
+  --font-sans: "Sohne", var(--font-fallback);
+  --font-mono: Menlo, monospace;
+  --font-serif: "Newsreader", "Signifier", Times, serif;
+}
+
+/* Reset and global styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow-y: scroll;
+}
+
+/* Typography */
+p, span, a, h1 {
+  line-height: 1.5rem;
+}
+
+p {
+  font-weight: 300;
+  font-size: medium;
+  color: var(--greyscale-color-default);
+}
+
+.secondary {
+  color: var(--greyscale-color-semi-light);
+}
+
+h1 {
+  font-family: var(--font-display);
+  color: var(--greyscale-color-default);
+  font-weight: normal;
+  font-size: medium;
+  margin: 0;
+}
+
+button {
+  font-family: var(--font-sans);
+  font-size: medium;
+  font-weight: 400;
+  color: var(--greyscale-color-default);
+  background-color: transparent;
+  border: var(--greyscale-color-lighter) 1px solid;
+  border-radius: 18px;
+  cursor: pointer;
+  padding: 6px 10px 6px 10px;
+  color: var(--greyscale-color-dark);
+}
+
+button:active {
+  background-color: var(--greyscale-color-lighter);
+}
+
+/* Layout */
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 700px;
+  padding: 30px;
+}
+
+/* Utility classes */
+.highlight {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: medium;
+  font-weight: 400;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+  .contact-text {
+    text-align: left;
+  }
+}
