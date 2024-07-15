@@ -8,6 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Layout>
+        <h2>This is a test heading in App component</h2>
         <Routes>
           <Route index element={<Home />} />
           <Route path="/Home" element={<Home />} />

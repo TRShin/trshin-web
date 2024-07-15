@@ -8,6 +8,7 @@ function Home() {
         navigate(path);
     }
 
+
     return (
         <div className='content'>
             <div className='container'>
