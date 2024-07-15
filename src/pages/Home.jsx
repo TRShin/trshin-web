@@ -8,6 +8,7 @@ function Home() {
         navigate(path);
     }
 
+    console.log('Home Component HERE!');
 
     return (
         <div className='content'>
