@@ -2,7 +2,7 @@
 
 :root {
   /* Colors */
-  --greyscale-color-default: hsl(0, 0%, 32%);
+  --greyscale-color-default: hsl(0, 0%, 24%);
   --greyscale-color-semi-light: hsl(0, 0%, 55%);
   --greyscale-color-light: hsl(0, 0%, 70%);
   --greyscale-color-lighter: hsl(0, 0%, 85%);

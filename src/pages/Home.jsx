@@ -8,14 +8,12 @@ function Home() {
         navigate(path);
     }
 
-    console.log('Home Component HERE!');
-
     return (
         <div className='content'>
             <div className='container'>
                 <div className={styles.short_info}>
                     <h1>Trentin Shin</h1>
-                    <p className='secondary'>Software Engineer, </p>
+                    <p className='secondary'>Aspiring Software Engineer, <br /> Front End Hobbyist</p>
                 </div>
 
                 <div className={styles.about}>
