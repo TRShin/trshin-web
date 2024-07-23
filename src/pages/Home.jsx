@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom'; 
-import '../index.css';
+import '../css/index.css';
+import Feedback from '../components/Feedback';
 import styles from '../css/home.module.css';
 
 function Home() {
@@ -99,6 +100,8 @@ function Home() {
                         </a>
                     </div>*/}
                 </div>
+
+                <p onClick={() => handleNavigation('/Feedback')}>feedback</p>
             </div>
         </div>
     );

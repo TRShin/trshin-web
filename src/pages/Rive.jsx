@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'; 
-import '../index.css';
+import '../css/index.css';
 import styles from '../css/rive.module.css';
 import RingSilent from '../components/RingSilent'; 
 import Return from '../components/Return';

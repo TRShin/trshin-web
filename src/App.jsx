@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Play1 from './pages/Play1';
 import Rive from './pages/Rive';
 import Layout from './components/Layout';
+import Sendfeedback from './pages/Sendfeedback';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Routes>
           <Route index element={<Home />} />
           <Route path="/Home" element={<Home />} />
+          <Route path="/Feedback" element={<Sendfeedback />} />
           <Route path="/Mini-Projects" element={<Play1 />} />
           <Route path="/Mini-Projects/Rive" element={<Rive />} />
         </Routes>

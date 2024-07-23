@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'; 
-import '../index.css';
+import '../css/index.css';
 import styles from '../css/play1.module.css';
 import Return from '../components/Return';
 
