@@ -22,8 +22,7 @@ function Rive() {
                     <p> 
                         If you are familiar with animating in software such as Adobe After Effects or Figma,
                         Rive provides a familiar interface for creating animations, with the benefit of its
-                        state machine, a system for managing animation and defining logic for interactivity 
-                        in an intuitive node-based graph. In the following interactive examples, I implement 
+                        state machine. In the following interactive examples, I implement 
                         simple animations created using Rive with React JS.
                         <br /><br />
                         
@@ -40,7 +39,7 @@ function Rive() {
                     <p>
                         What I like about Rive is the ability to design in Illustrator, animate in After Effects,
                         and then import to Rive as a .json Lottie file via Bodymovin. This process is efficient 
-                        (in the sense of following a standard workflow) and is definitely simpler and faster
+                        (in the sense of following a standard workflow) and is really simple and fast
                         for some cases of implementing animation, whether interactive or not.
                         <br /><br />
                     </p>

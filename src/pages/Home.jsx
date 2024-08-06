@@ -1,6 +1,5 @@
 import { useNavigate } from 'react-router-dom'; 
 import '../css/index.css';
-import Feedback from '../components/Feedback';
 import styles from '../css/home.module.css';
 
 function Home() {
@@ -83,7 +82,10 @@ function Home() {
                         <p>Contact</p>
                     </div>
                     <p className={styles.contact_text}>
-                        Reach me at&nbsp;<a href="mailto:trshin@uci.edu">trshin@uci.edu</a>&nbsp;or find me on&nbsp;<a href="https://www.linkedin.com/in/trentin-shin-b1b4a226b/?trk=opento_sprofile_goalscard" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile">LinkedIn</a>.
+                        Reach me at&nbsp;<a href="mailto:trshin@uci.edu">trshin@uci.edu</a>&nbsp;or find me on&nbsp;
+                        <a href="https://www.linkedin.com/in/trentin-shin-b1b4a226b/?trk=opento_sprofile_goalscard" target="_blank" rel="noopener noreferrer" title="LinkedIn Profile">LinkedIn</a>
+                        &nbsp; / &nbsp;<a href="https://github.com/TRShin" target="_blank" rel="noopener noreferrer" title="Github Profile">Github</a>.
+
                     </p>
                 </div>
                 <div className={styles.contact}>
@@ -100,8 +102,6 @@ function Home() {
                         </a>
                     </div>*/}
                 </div>
-
-                <p onClick={() => handleNavigation('/Feedback')}>feedback</p>
             </div>
         </div>
     );

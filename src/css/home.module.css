@@ -20,7 +20,7 @@
 }
 
 .projects_p, .blog_p {
-  margin-bottom: 35px;
+  margin-bottom: 20px;
   color: var(--greyscale-color-light);
 }
 
@@ -36,11 +36,9 @@
   justify-content: center;
   flex-direction: column;
   border-radius: 10px;
-  margin-top: 10px;
   margin-left: -12px;
   height: 60px;
   width: calc(100% + 12px);
-  border-bottom: 1px solid var(--greyscale-color-lighter);
 }
 
 .p_body:hover {
@@ -76,7 +74,7 @@
 }
 
 .contact_big {
-  margin-bottom: 35px; 
+  margin-bottom: 20px; 
 }
 
 .contact_big p {
@@ -127,7 +125,7 @@
 
 .work_name {
   color: var(--greyscale-color-semi-light);
-  margin-bottom: 35px;
+  margin-bottom: 20px;
 }
 
 .work_name p {
@@ -137,14 +135,12 @@
 .work_body_h {
   text-wrap: nowrap;
   border-radius: 10px;
-  height: 60px;
+  height: 40px;
   width: calc(100% + 12px);
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 20px;
   margin-left: -12px;
-  border-bottom: 1px solid var(--greyscale-color-lighter);
 }
 
 .work_text {
