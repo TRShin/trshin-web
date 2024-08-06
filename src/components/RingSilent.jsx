@@ -7,7 +7,7 @@ function RingSilent() {
     const STATE_MACHINES = ["Bar-State-Machine", "Bell-State-Machine"];
     
     const { rive, RiveComponent } = useRive({
-        src: "/trshin-web/ring.riv",
+        src: "/ring.riv",
         stateMachines: STATE_MACHINES, 
         autoplay: true,
         onError: (err) => console.error("Rive loading error:", err),

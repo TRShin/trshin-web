@@ -1,5 +1,5 @@
 {
-  "homepage": "https://trshin.github.io/trshin-web/",
+  "homepage": ".",
   "name": "professional-2",
   "private": true,
   "version": "0.0.0",
@@ -13,11 +13,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@rive-app/react-canvas": "^4.13.2",
+    "@rive-app/react-canvas": "^4.13.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.52.1",
     "react-router-dom": "^6.24.1",
+    "rive": "^2.0.33",
     "rive-react": "^4.13.2"
   },
   "devDependencies": {
