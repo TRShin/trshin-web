@@ -6,13 +6,13 @@ import Layout from './components/Layout';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/trshin-web">
       <Layout>
         <Routes>
           <Route index element={<Home />} />
-          <Route path="/Home" element={<Home />} />
-          <Route path="/Mini-Projects" element={<Play1 />} />
-          <Route path="/Mini-Projects/Rive" element={<Rive />} />
+          <Route path="Home" element={<Home />} />
+          <Route path="Mini-Projects" element={<Play1 />} />
+          <Route path="Mini-Projects/Rive" element={<Rive />} />
         </Routes>
       </Layout>
     </Router>
